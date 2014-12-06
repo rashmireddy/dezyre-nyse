@@ -17,6 +17,7 @@ $ brew install hadoop
 $ brew install zookeeper
 $ brew link zookeeper
 ```
+
 3. Download sqoop and setup mysql driver
 ```
 a. Go to http://www.carfab.com/apachesoftware/sqoop/1.4.5/
