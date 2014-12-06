@@ -27,7 +27,8 @@ d. Download mysql-connector-java-5.*.*-bin.jar.zip from internet
 e. place it in the lib dir of ~/sqoop-1.4.5.bin__hadoop-2.0.4-alpha/lib
 ```
 
-4. Run sqoop import
+4. Run sqoop
+
 Import mysql table data into Hadoop
 ```
 ./bin/sqoop import --connect jdbc:mysql://localhost/nyse  --table nasdaq_daily_prices --target-dir /user/rashmi/nasdaq_daily_prices --username root --split-by exchange
