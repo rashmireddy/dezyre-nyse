@@ -1,4 +1,4 @@
-#H1dezyre-nyse
+dezyre-nyse
 ===========
 
 NYSE BigData project
