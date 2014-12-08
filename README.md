@@ -3,7 +3,7 @@ dezyre-nyse
 
 NYSE BigData project
 
-#H2 Setup single node Hadoop on Mac
+Setup single node Hadoop on Mac
 ================================
 
 1. install brew
@@ -13,9 +13,9 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 2. install hadoop, hive, zookeeper, sqoop
 ```
-..*$ brew install hadoop
-..*$ brew install zookeeper
-..*$ brew link zookeeper
+$ brew install hadoop
+$ brew install zookeeper
+$ brew link zookeeper
 ```
 
 3. Download sqoop and setup mysql driver
