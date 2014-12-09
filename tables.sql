@@ -9,3 +9,5 @@ stock_price_close DOUBLE,
 stock_volume BIGINT, 
 stock_price_adj_close DOUBLE
 ) engine=InnoDB;
+
+create table stock_volume ( stock_symbol VARCHAR(35) , total_stock_volume int) engine innodb;
