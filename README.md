@@ -5,13 +5,15 @@ NYSE BigData project
 
 Setup single node Hadoop on Mac:
 ================================
-
+<ol>
  1. install brew
+</ol>
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-
+<ol>
  2. install hadoop, hive, zookeeper, sqoop
+</ol>
 ```
 $ brew install hadoop
 $ brew install hive
