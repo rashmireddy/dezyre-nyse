@@ -3,7 +3,7 @@ dezyre-nyse
 
 NYSE BigData project
 
-Setup single node Hadoop on Mac
+Setup single node Hadoop on Mac:
 ================================
 
  1. install brew
