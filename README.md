@@ -40,7 +40,14 @@ Import mysql table data into Hadoop
 ```
 
 <ol>
- 5. Run sqoop
+5. Run NYSE.jar MapReduce Program
+</ol>
+```
+hadoop jar NYSE.jar com.rashmi.mapreduce.NYSE.NYSEJob <input path> <output path>
+```
+
+<ol>
+ 6. Run sqoop
 </ol>
 Export MapReduce output into MySQL
 ```
