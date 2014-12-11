@@ -1,1 +1,0 @@
-load data local infile 'NASDAQ_daily_prices_A_sample.csv' into table nasdaq_daily_prices fields terminated by ',' lines terminated by '\n' ( exchange , stock_symbol , date , stock_price_open , stock_price_high , stock_price_low , stock_price_close , stock_volume , stock_price_adj_close )
