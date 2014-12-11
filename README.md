@@ -3,7 +3,7 @@ dezyre-nyse
 
 NYSE BigData project
 
-Setup single node Hadoop on Mac:
+Setup single node Hadoop on Mac
 ================================
 <ol>
  1. install brew
@@ -40,14 +40,17 @@ $ sqoop import --connect jdbc:mysql://localhost/nyse  --table nasdaq_daily_price
 ```
 
 <ol>
-5. Run NYSE.jar MapReduce Program
+5. Run NYSE.jar MapReduce Program (using just NYSE.jar)
 </ol>
 ```
 hadoop jar NYSE.jar com.rashmi.mapreduce.NYSE.NYSEJob <input path> <output path>
 ```
 
 <ol>
- 6. Run sqoop
+6. Run the jar file after building the jar using maven
+</ol>
+<ol>
+ 7. Run sqoop
 </ol>
 Export MapReduce output into MySQL
 ```
