@@ -52,7 +52,7 @@ hadoop jar NYSE.jar com.rashmi.mapreduce.NYSE.NYSEJob <input path> <output path>
 ```
 mvn compile
 dezyre-nyse-1.0-SNAPSHOT.jar will be built in "target" directory
-$ hadoop dezyre-nyse-1.0-SNAPSHOT.jar <input path> output path>
+$ hadoop dezyre-nyse-1.0-SNAPSHOT.jar <input path> <output path>
 ```
 <ol>
  7. Run sqoop
