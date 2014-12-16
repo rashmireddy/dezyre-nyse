@@ -56,3 +56,7 @@ Export MapReduce output into MySQL
 ```
 $ sqoop export --connect jdbc:mysql://localhost/nyse --table stock_volume --export-dir /user/rashmi/nasdaq_daily_prices/output --username root --input-fields-terminated-by '\t' --input-lines-terminated-by '\n'
 ```
+```
+Check output of MapReduce & Mysql at 
+<a href>https://github.com/rashmireddy/dezyre-nyse/tree/master/src/main/output</a>
+```
