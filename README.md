@@ -63,3 +63,7 @@ $ sqoop export --connect jdbc:mysql://localhost/nyse --table stock_volume --expo
 ```
 Check output of MapReduce & Mysql at 
 [here](https://github.com/rashmireddy/dezyre-nyse/tree/master/src/main/output)
+Have automated the project using shell script
+```
+$ ./dezyre-nyse.sh
+```
